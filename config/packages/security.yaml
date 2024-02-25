@@ -64,6 +64,10 @@ security:
             methods:
                 - get
 
+        redoc:
+            pattern: ^/api/docs
+            security: false
+
         main:
             stateless: true
             security: true
